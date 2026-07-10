@@ -1,3 +1,5 @@
+// Este é o "chefe" do TypeScript. Ele serve para configurar como o TypeScript deve analisar o seu código. É aqui que você define se ele deve ser muito rígido com regras de digitação ou mais maleável.
+
 {
   "files": [],
   "references": [

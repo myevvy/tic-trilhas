@@ -1,4 +1,5 @@
 {
+  "_comment": "Esse arquivo é o package.json do projeto tic-trilhas, que contém informações sobre o projeto, suas dependências e scripts de desenvolvimento. Ele define o nome do projeto, a versão, o tipo de módulo (ESM), e inclui scripts para desenvolvimento, build, linting e preview. Além disso, lista as dependências necessárias para o funcionamento do projeto, como React, React Router DOM e Tailwind CSS, bem como as dependências de desenvolvimento, incluindo TypeScript, ESLint e Vite.",
   "name": "tic-trilhas",
   "private": true,
   "version": "0.0.0",
@@ -10,8 +11,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.18.1",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
+    "react-query": "^3.39.3",
     "react-router-dom": "^7.18.1",
     "tailwind-merge": "^3.6.0",
     "tailwind-variants": "^3.2.2"
